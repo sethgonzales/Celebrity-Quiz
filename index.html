@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating Quiz</title>
+</head>
+<body>
+  <div>
+    <h1>Celebrity Dating Quiz</h1>
+
+    <p>Welcome to the celebrity dating quiz!</p>
+    <p>Let's find out who you are the most compatible with.</p>
+    <p>Enter your preferred favorite color (red or blue) and season (summer or winter).</p>
+
+    <form>
+      <p id="error-message" class="hidden">Please enter the color and season as all lowercase letters with no number values.</p>
+      <label for="color">Preferred Color: </label>
+      <input id="color" type="text" name="color">
+      <label for="season">Preferred Season: </label>
+      <input id="season" type="text" name="season">
+      <button type="submit">Who am I matched with?</button>
+    </form>
+
+    <div id="BP" class="hidden">
+      <h1>You are matched with Brad Pitt.</h1>
+      <p>You chose red and summer. Spicy!</p> 
+    </div>
+    <div id="JL" class="hidden">
+      <h1>You are matched with Jennifer Lawrence.</h1>
+      <p>You chose red and winter. Interesting!.</p> 
+    </div>
+    <div id="MBJ" class="hidden">
+      <h1>You are matched with Michael B Jordan.</h1>
+      <p>You chose blue and summer. Wild!</p> 
+    </div>
+    <div id="NP" class="hidden">
+      <h1>You are matched with Natalie Portman.</h1>
+      <p>You chose blue and winter. Insane!</p> 
+    </div>
+  </div>
+</body>
+</html>
